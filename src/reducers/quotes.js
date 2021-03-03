@@ -27,7 +27,6 @@ export default (state = [], action) => {
             ...quote,
             votes: newVoteValue
           }
-          // return Object.assign({}, quote, {votes: quote.votes + 1})
         } else {
           return quote
         }
